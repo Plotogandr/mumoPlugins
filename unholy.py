@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8
 
-# Copyright (C) 2018 Kiwii
+# Copyright © 2018 Plotogandr
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
