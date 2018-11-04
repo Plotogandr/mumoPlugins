@@ -33,7 +33,7 @@ from mumo_module import MumoModule
 
 
 class unholy(MumoModule):
-    default_config = {'base64fixer': (
+    default_config = {'unholy': (
                                 ('max_width', int, 100),
                                 )
                       }
@@ -50,10 +50,9 @@ class unholy(MumoModule):
 #
 
     def userTextMessage(self, server, user, message, current=None):
-        msg = None
 
         if message.text.startswith('!unholy'):
-            msg += 'https://images-na.ssl-images-amazon.com/images/I/710VFY9wheL._SY606_.jpg'
+            msg = 'https://images-na.ssl-images-amazon.com/images/I/710VFY9wheL._SY606_.jpg'
             server.sendMessageChannel(user.channel, False, msg)
 
         def __getattr__(self, item):
