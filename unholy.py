@@ -32,7 +32,7 @@
 from mumo_module import MumoModule
 
 
-class base64fixer(MumoModule):
+class unholy(MumoModule):
     default_config = {'base64fixer': (
                                 ('max_width', int, 100),
                                 )
